@@ -1,9 +1,5 @@
 apply plugin: 'java-library'
-apply plugin: com.novoda.gradle.release.ReleasePlugin
-
-repositories {
-    jcenter()
-}
+apply plugin: 'com.novoda.bintray-release'
 
 dependencies {
     implementation "junit:junit:4.12"
